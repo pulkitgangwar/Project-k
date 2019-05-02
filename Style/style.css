@@ -85,7 +85,7 @@ button{
   text-align:center;
   display:block;
   margin:0 auto;
-  padding:20px 40px;
+  padding:15px 40px;
   border:1px solid black;
   background:none;
   text-transform: capitalize;
@@ -93,10 +93,10 @@ button{
   overflow:hidden;
 }
 button:hover{
-  border:1px solid green;
-  color:green;
+  border:none;
+  color:black;
   transition: 500ms ease-in;
-  filter:blur(1px);
+  background-color:grey;
 }
 button:focus{
   padding:20px 50px;
