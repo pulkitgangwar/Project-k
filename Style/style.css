@@ -55,6 +55,18 @@
   font-size: 40px;
   font-weight: 100;
 }
+/* making site for mobile devices */
+@media only screen and (max-width: 480px) {
+  .logo {
+    padding-left: 30px;
+  }
+  .navbar {
+    padding: 20px;
+  }
+  .hero-data h1 {
+    font-size: 20px;
+  }
+}
 /* section 1 having background image and a overlay */
 .hero {
   background-image: url("../Images/photo-1490818387583-1baba5e638af.jpg");
@@ -267,8 +279,76 @@
   transition: 500ms ease;
   color: white;
 }
-.col-data-2 img{
-  position:absolute;
-  transform:translate(100px,100px);
+.col-data-2 img {
+  position: absolute;
+  transform: translate(100px, 100px);
+}
+
+/* contact section starts */
+
+.bkii {
+  background-image: url("../Images/xxxx.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+}
+.form {
+  background-color: #ecf0f1;
+  height: 800px;
+}
+.form h2 {
+  padding-top: 100px;
+  padding-left: 70px;
+  font-size: 50px;
+  font-weight: 100;
+}
+.form p {
+  padding-left: 70px;
+  font-family: verdana;
+  padding-top: 30px;
+}
+.form-item {
+  margin-top: 50px;
+}
+.form-elements label {
+  position: absolute !important;
+  top: -9999 !important;
+  left: -9999 !important;
+}
+form {
+  padding-left: 70px;
+  padding-top: 40px;
+}
+.form-elements {
+  padding: 2px;
+  width: 100%;
+}
+.form-elements input,.form-elements textarea{
+  padding:5px;
+  font-family:verdana;
+  width:90%; 
+  background:none;
+  border:1px solid black;
+  outline:none;
+  
+}
+.form-elements input:hover ,.form-elements textarea:hover{
+  background-color:white;
+}
+.buttonform{
+  padding-left:2px;
+}
+.buttonform input{
+  padding:5px 20px;
+  background-color:#2980b9;
+  border:1px solid #2980b9;
+  outline:none;
+  color:white;
+  font-family:verdana;
+
+}
+.buttonform input:hover{
+  background-color:rgba(41, 128, 185,0.5);
+  border:1px solid rgba(41, 128, 185,0.5);
 
 }
