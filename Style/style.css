@@ -119,106 +119,156 @@
   font-family: verdana;
   padding: 20px;
 }
+
 /* portfolio section */
-.flexboxcontainer {
-  z-index:1;
-  position:relative;
+.flexcontainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+.flexitems {
+  width: 400px;
+  min-height: 100vh;
+
+  text-align: center;
+}
+.flexitems h2 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: verdana;
+  padding-top: 120px;
+  color: white;
+}
+.flexitems button {
+  font-size: 20px;
+  padding: 5px 30px;
+  margin-top: 30px;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+}
+.flexitems button:hover {
+  background-color: black;
+  border: 1px solid black;
+  transition: 500ms ease;
 }
 .bki1 {
   background-image: url("../Images/1.jpg");
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-  width: 380px;
-  z-index:100;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 .bki2 {
   background-image: url("../Images/2.png");
   background-size: cover;
   background-position: center center;
-  background-color: red;
-  height: 100vh;
-  width: 380px;
-  z-index:100;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 .bki3 {
   background-image: url("../Images/3.jpg");
   background-size: cover;
   background-position: center center;
-  background-color: green;
-  height: 100vh;
-  width: 380px;
-  z-index:100;
-}
-.data {
-  text-align: center;
-  z-index:100;
-}
-.data h2 {
-  text-align: center;
-  font-family: verdana;
-  font-size: 40px;
-  font-weight: 100;
-  padding-top: 100px;
-  color:black;
-}
-.data button {
-  background: none;
-  outline: none;
-  border: 1px solid white;
-  color: white;
-  padding:10px 40px;
-  margin-top:30px;
-}
-.data button:hover{
-  background-color: black;
-  border: 1px solid black;
-  transition: 500ms ease;
-}
-.bki-overlay{
-  z-index:-100;
-  background-color:rgba(0, 0, 0, 0.5);
-  position:absolute;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
 
 /* about section with float */
 
-.col-50{
-  float:left;
-  width:50%;
+.col-50 {
+  float: left;
+  width: 50%;
 }
-.backi{
-  background-image: url('../Images/9.JPG');
-  background-size:cover;
-  background-position:center center;
-  height:100vh;
+.backi {
+  background-image: url("../Images/9.JPG");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
-.col-50-data{
-  background-color:#ecf0f1;
-  height:100vh;
-  
-  
+.col-50-data {
+  background-color: #ecf0f1;
+  height: 100vh;
 }
-.col-50-data h2{
-  padding-top:100px;
-  padding-left:50px;
-  font-size:50px;
-  font-family:verdana;
+.col-50-data h2 {
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-family: verdana;
   font-weight: 100;
 }
-.col-50-data p{
-  padding-top:20px;
-  padding-left:50px;
+.col-50-data p {
+  padding-top: 20px;
+  padding-left: 50px;
   font-family: verdana;
 }
-.col-50-data h4{
-  padding-top:20px;
-  padding-left:50px;
-  font-size:30px;
+.col-50-data h4 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 30px;
   font-weight: 100;
   font-family: verdana;
+}
+/* books section starting  */
+.col-data-1 {
+  background-color: #ecf0f1;
+  height: 500px;
+}
+.col-data-2 {
+  height: 500px;
+  background-color: #ecf0f1;
+}
+.imagectrl {
+  width: 300px;
+  height: 300px;
+}
+.col-data-1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: verdana;
+  padding-top: 90px;
+  padding-left: 65px;
+}
+.col-data-1 p {
+  font-size: 17px;
+  font-weight: 100;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+.col-data-1 h3 {
+  font-size: 60px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-left: 65px;
+}
+.col-data-1 button {
+  position: absolute;
+  padding: 10px 30px;
+  background: none;
+  color: black;
+  border: 1px solid black;
+  font-weight: 100;
+  transform: translate(250px, -55px);
+}
+.col-data-1 button:hover {
+  background-color: black;
+  border: 1px solid black;
+  transition: 500ms ease;
+  color: white;
+}
+.col-data-2 img{
+  position:absolute;
+  transform:translate(100px,100px);
+
 }
