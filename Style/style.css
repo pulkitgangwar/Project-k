@@ -51,7 +51,7 @@
   transition: 1000ms ease;
 }
 .logo h1 {
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   font-size: 40px;
   font-weight: 100;
 }
@@ -88,14 +88,14 @@
   text-align: center;
 }
 .hero-data h1 {
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   font-size: 80px;
   padding-top: 200px;
   color: white;
   font-weight: 100;
 }
 .hero-data p {
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   font-size: 20px;
   font-weight: 300;
   color: white;
@@ -107,6 +107,7 @@
   outline: none;
   border: 1px solid white;
   color: white;
+  font-family: 'Noto Serif SC', serif;
 }
 .hero-data button:hover {
   background-color: black;
@@ -146,7 +147,7 @@
 .flexitems h2 {
   font-size: 40px;
   font-weight: 100;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   padding-top: 120px;
   color: white;
 }
@@ -158,6 +159,7 @@
   outline: none;
   border: 1px solid white;
   color: white;
+  font-family: 'Noto Serif SC', serif;
 }
 .flexitems button:hover {
   background-color: black;
@@ -217,20 +219,20 @@
   padding-top: 100px;
   padding-left: 50px;
   font-size: 50px;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   font-weight: 100;
 }
 .col-50-data p {
   padding-top: 20px;
   padding-left: 50px;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
 }
 .col-50-data h4 {
   padding-top: 20px;
   padding-left: 50px;
   font-size: 30px;
   font-weight: 100;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
 }
 /* books section starting  */
 .col-data-1 {
@@ -248,7 +250,7 @@
 .col-data-1 h2 {
   font-size: 60px;
   font-weight: 300;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   padding-top: 90px;
   padding-left: 65px;
 }
@@ -257,12 +259,14 @@
   font-weight: 100;
   padding-left: 70px;
   padding-top: 40px;
+  font-family: 'Noto Serif SC', serif;
 }
 .col-data-1 h3 {
   font-size: 60px;
   font-weight: 300;
   padding-top: 40px;
   padding-left: 65px;
+  font-family: 'Noto Serif SC', serif;
 }
 .col-data-1 button {
   position: absolute;
@@ -272,6 +276,7 @@
   border: 1px solid black;
   font-weight: 100;
   transform: translate(250px, -55px);
+  font-family: 'Noto Serif SC', serif;
 }
 .col-data-1 button:hover {
   background-color: black;
@@ -301,10 +306,11 @@
   padding-left: 70px;
   font-size: 50px;
   font-weight: 100;
+  font-family: 'Noto Serif SC', serif;
 }
 .form p {
   padding-left: 70px;
-  font-family: verdana;
+  font-family: 'Noto Serif SC', serif;
   padding-top: 30px;
 }
 .form-item {
@@ -325,7 +331,7 @@ form {
 }
 .form-elements input,.form-elements textarea{
   padding:5px;
-  font-family:verdana;
+  font-family: 'Noto Serif SC', serif;
   width:90%; 
   background:none;
   border:1px solid black;
@@ -344,7 +350,7 @@ form {
   border:1px solid #2980b9;
   outline:none;
   color:white;
-  font-family:verdana;
+  font-family: 'Noto Serif SC', serif;
 
 }
 .buttonform input:hover{
